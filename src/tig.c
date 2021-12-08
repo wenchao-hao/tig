@@ -197,7 +197,7 @@ view_driver(struct view *view, enum request request)
 		break;
 
 	case REQ_VIEW_GREP:
-		open_grep_view(view);
+		//open_grep_view(view);
 		break;
 
 	case REQ_VIEW_MAIN:
